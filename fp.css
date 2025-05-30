@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+main{
+    background-color: #013F30;
+    height: 1400px;
+    width: auto;
+    font-family: "Sofia Sans", sans-serif;
+    padding-top: 20px;
+    display: flex;
+}
+header{
+    background-color: #186A55;
+    height: 100px;
+    padding-bottom: 30px;
+    font-family: "Sofia Sans", sans-serif;
+
+}
+body{
+    margin: 0px;
+}
+.g{
+    margin: 0px;
+    font-size: 70px;
+}
+.gg{
+    color: rgba(255, 255, 255, 0.539);
+    position: relative;
+    top: -18px;
+    margin-left: 325px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.a{
+    display: flex;
+    margin-left: 20%;
+}
+.card{
+    height: 240px;
+    width: 700px;
+    display: flex;
+    border: black 1mm solid;
+    margin-left: 25px;
+    margin-top:20px ;
+    border-radius: 8px;
+    background-color: #033025;
+    margin-right: 25px;
+}
+.icon{
+    width: 400px;
+    height: 220px;
+    border-radius: 8px;
+}
+.ds{
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.598);
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+}
+.gl{
+    animation: gl 8s infinite;
+    
+}
+@keyframes gl{
+    30%{
+        transform: rotatey(0deg);
+    }
+    60%{
+        transform: rotatey(180deg);
+    }
+    90%{
+        transform: rotatey(0deg);
+    }
+}
+p{
+    width: 250px;
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+    color: white;
+    height: 220px;
+
+}
+a{
+    color: 	white;
+    text-decoration:none;
+}
+a:hover {
+    color: rgb(146, 146, 231);
+    transition: 0.7s;
+}
+.come{
+    height: 40px;
+    width: 160px;
+    border: #14231f 1.5mm solid;
+    margin-left: 25px;
+    margin-top:20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.626);
+    padding-bottom: 20px;
+    padding: 10px;
+    background-color: #033025;
+}
+.come_t{
+    position: relative;
+    top:-18px;
+}
+.z{
+    position: relative;
+    top: 120px;
+    left: 28%;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.t{
+    color: rgba(255, 255, 255, 0.612);
+    position: relative;
+    top: 140px;
+    left: -28%;
+    font-size: 23px;
+}
+ul{
+    text-decoration: none;
+}
+.nd{
+    position: relative;
+    top: 100px;
+    left: 280px;
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+}
+iframe{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    margin-bottom: 40px;
+}
+.vid{
+    display: flex;
+    flex-direction: column;
+}
